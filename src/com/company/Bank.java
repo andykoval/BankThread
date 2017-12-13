@@ -99,7 +99,7 @@ public class Bank {
         }
         //Printing Accounts after the transactions
         try {
-            Thread.currentThread().join(1000);
+            Thread.currentThread().join(200);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

@@ -17,7 +17,7 @@ class BankThread implements Runnable {
     @Override
     public void run() {
         try {
-            System.out.println(Bank.transferMoney(src, dest, amount));
+            Bank.transferMoney(src, dest, amount);
         } catch (Exception e) {
             e.printStackTrace();
         }
